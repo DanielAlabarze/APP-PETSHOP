@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Daniel Alabarze" />
+    <meta name="description" content="app petshop" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48" href="img/pawprint 1.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>AP - Petshop</title>
+</head>
+<body>
+    <header>
+        <div class="barraSuperior">
+        <div>
+        <span>Grandes ofertas en comederos<span>
+        </div>
+        <div>
+            <select name="español" id="español">
+        <option value="español"><span>Español</span></option>
+        <option value="Ingresá"><span>Ingles</span></option>
+        <option value="frances"><span>Frances</span></option>
+    </select>
+<select name="arg" id="arg">
+        <option value="arg"><span>ARG$</span></option>
+        <option value="dolar"><span>U$S</span></option>
+        <option value="real"><span>Real$</span></option>
+</select>
+        </div>
+        </div>
+    <nav>
+        <div class="nav">
+            <div>
+            <span><img src="img/Logo cabecera.png" alt="logo"></span>
+            </div>
+            <div>
+        <ul>
+        <li><a href="#"><img src="img/pawprint 1 (1).png" alt="patita"> Categorías</a></li>
+        <li><a href="#"><img src="img/pawprint 1 (1).png" alt="patita"> Pets</a></li>
+        <li><a href="#"><img src="img/pawprint 1 (1).png" alt="patita"> Nosotros</a></li>
+        <li><a href="#"><img src="img/pawprint 1 (1).png" alt="patita"> Contactanos</a></li>
+        </ul>
+        </div>
+        </div>
+    </nav>
+        
+        </header>
+    <main> 
+        <div class="principal">
+           
+    <div class="contenedorPlacer">
+        <p id="placer">¡Es un placer tenerte aquí!</p>
+        <p id="descuento">¡Comederos en descuento!</p>
+        <a href="https://listado.mercadolibre.com.ar/comederos-para-perros" target="_blank"><button id="buttonComedero">COMEDEROS</button></a>
+        </div>
+        </div>
+
+
+        <section class="destacados">
+            <div class="destacados">
+        <img  class="huella" src="img/pawprint 1.png" alt="huella"><br>
+        <h2>Productos Destacados</h2>
+        <p class="comedero">Comederos - Accesorios - Comida</p>
+            </div>
+        </section>
+            <section class="contenidos">
+            <div class="contenido1">
+        <img src="img/churrasquito.png" alt="churrasquito"><br>
+        <p>Juguete Churrasquito</p>
+        <p class="precio">$150</p>
+            </div>
+            <div class="contenido2">
+        <img src="img/comedero.png" alt="comedero"><br>
+        <p>Comedero para perro</p>
+        <p class="precio">$250</p>
+            </div>
+            <div class="contenido3">
+        <img src="img/Huesito.png" alt=""><br>
+        <p>Juguete Huesito</p>
+        <p class="precio">$650</p>
+            </div>
+        </section>
+        
+        <form action="resultado.html" method="post">
+          <label for="contactanos"> Contáctanos</label><br>
+          <input type="text" name="contactanos" id="contactanos" placeholder="Nombre y Apellido"><br>
+          <input type="email" name="email" id="contactanos" placeholder="Ingresá tu correo electronico"><br>
+          <input type="tel" name="tel" id="contactanos" placeholder="Teléfono"><br>
+          <button class="reset" type="reset">Resetar</button>
+          <button class="enviar" type="submit">Enviar</button>
+           </form>
+           <section class="subcripcion">
+            <div class="logoCorreo">
+            <img src="img/enviar-correo 1.png" alt="correo">
+            
+
+           <span id="novedades">Subcríbete para más novedades</span>
+            </div>
+            <div class="correo">
+        
+        <input class="subUno" type="email" name="email" id="email" placeholder="Ingresá tu correo electronico">
+        <button class="sub" type="submit">Suscribirme</button>
+            </div>
+            
+        </section>
+        <section class="datos">
+            <div class="iconos">
+                <div class="dirDatos">
+            <div>
+          <img id="dir" src="img/Icono.png" alt="localidad">
+            </div>
+            <div>
+          <p id="loc">Localidad
+            <span id="chica"><br>Calle - provincia</span></p>
+            </div>
+                </div>
+            
+                <div class="dirDatos" >
+                <div>
+          <img id="dir" src="img/Icono (1).png" alt="">
+                </div>
+                <div>
+          <p id="loc">Teléfono
+            <span id="chica"><br>número de teléfono</span></p>
+            </div>
+                </div>
+            
+                <div class="dirDatos">
+            <div>
+          <img id="dir" src="img/Icono (2).png" alt="">
+            </div>
+            <div>
+          <p id="loc">Correo Electrónico
+            <span id="chica"><br>Dirección de correo</span></p>
+            </div>
+                </div>
+            </div>
+            
+        
+            
+        <div>
+          <img id="logPie" src="img/Logo.png" alt="logo">
+        </div>
+        </section>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados Argentina Programa @ UNTREF</p>
+    </footer>
+</body>
+</html>
